@@ -1,0 +1,30 @@
+.container{
+    height: 100px;
+    width: 200px;
+    border: 2px solid green;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.timebox{
+    height: 30px;
+    width: 200px;
+    font-size:20px ;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.buttons button{
+    background-color: aqua;
+    color: rgb(26, 25, 25);
+    margin-left: 10px;
+    
+}
+#hr::after{
+    content: ":";
+}
+#min::after{
+    content: ":";
+}
+#sec::after{
+    content: ".";
+}
